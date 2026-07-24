@@ -1,8 +1,28 @@
 aid: chai-shots
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chai-shots.png
 name: Chai Shots
-description: Chai Shots is a company surfaced as a portfolio company of general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Chai Shots is a Hyderabad-based microdrama OTT streaming platform for vertical,
+  short-form fiction where every episode runs under two minutes. Built by the
+  Chai Bisket team (co-founders Sharath Chandra and Anurag Reddy), it is positioned
+  as India's first regional short-series OTT, launching in Telugu and other regional
+  Indian languages for Gen Z and tier II/III audiences. The platform offers
+  pay-per-episode and unlimited subscription access, a creator-first "Clap"
+  tipping feature, and an AI-native production workflow. It raised a $5M seed round
+  co-led by InfoEdge Ventures and General Catalyst. Chai Shots is a consumer content
+  app with no public developer/API surface at this time; this profile carries the
+  company's identity and published web properties.
 url: https://raw.githubusercontent.com/api-evangelist/chai-shots/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +32,31 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- OTT
+- Streaming
+- Entertainment
+- Video
+- Microdrama
+- Consumer
+- India
 apis: []
+common:
+- type: Website
+  url: https://www.chaishots.in/
+- type: PrivacyPolicy
+  url: https://www.chaishots.in/privacy-policy
+- type: TermsOfService
+  url: https://www.chaishots.in/terms-conditions
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
